@@ -7,7 +7,7 @@ btnEntrar.addEventListener('click', function (event) {
   let email = inputEmail.value;
   let senha = inputSenha.value;
   if (email !== 'tryber@teste.com' || senha !== '123456') {
-    alert("Login ou senha inválidos");
+    alert("Login ou senha inválidos.");
   }
   else {
     alert("Olá, Tryber!")
