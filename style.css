@@ -3,7 +3,6 @@
   padding: 0;
   font-size: 100%;
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', sans-serif;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +25,6 @@
 
 #trybewarts-header-title {
   padding: 25px;
-}
 
 .caixa-flex {
   display: flex;
@@ -35,10 +33,27 @@ width: 675px;
 }
 
 label{
-  display: block;
+  display: flex;
+}
+
+.caixa-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#evaluation-form {
+  width: 675px;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  height: 500px;
+  flex-grow: 1;
 }
 
 input {
-  display: inline;
+  display: flex;
 }
 
