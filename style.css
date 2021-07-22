@@ -26,13 +26,12 @@
 .caixa-flex {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 #evaluation-form {
   width: 675px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .logo {
