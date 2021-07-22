@@ -16,7 +16,6 @@
   height: 65px;
   width: 100%;
   justify-content: space-between;
-<<<<<<< HEAD
   
 }
 
@@ -27,10 +26,10 @@
 .trybewarts-login {
   display: flex;
   align-items: center;
-=======
 }
+.caixa-flex{
+  display: flex;
+background-color:cornflowerblue;
+width: 675px;
 
-#trybewarts-header-title {
-  padding: 25px;
->>>>>>> 970a2b876807d08aefabd4e7447ab8b4b70df9a6
 }
