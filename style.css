@@ -23,19 +23,18 @@
   align-items: center;
 }
 
-#trybewarts-header-title {
-  padding: 25px;
-}
 .caixa-flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 #evaluation-form {
   width: 675px;
   display: flex;
   flex-direction: column; 
 }
+
 .logo {
   display: flex;
   justify-content: flex-end;
