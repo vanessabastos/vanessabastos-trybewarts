@@ -3,7 +3,11 @@
   padding: 0;
   font-size: 100%;
   box-sizing: border-box;
+<<<<<<< HEAD
   font-family: 'Trebuchet MS', sans-serif;
+=======
+  font-family: Arial, Helvetica, sans-serif;
+>>>>>>> 970a2b876807d08aefabd4e7447ab8b4b70df9a6
 }
 
 .header {
@@ -12,6 +16,7 @@
   height: 65px;
   width: 100%;
   justify-content: space-between;
+<<<<<<< HEAD
   
 }
 
@@ -22,4 +27,10 @@
 .trybewarts-login {
   display: flex;
   align-items: center;
+=======
+}
+
+#trybewarts-header-title {
+  padding: 25px;
+>>>>>>> 970a2b876807d08aefabd4e7447ab8b4b70df9a6
 }
