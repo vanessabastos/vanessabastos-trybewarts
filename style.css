@@ -34,7 +34,7 @@
 #evaluation-form {
   width: 675px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 .logo {
   display: flex;
