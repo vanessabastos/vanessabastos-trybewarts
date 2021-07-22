@@ -1,5 +1,7 @@
-function clicar() {
-const inputLogin = document.getElementsByClassName('Login');
-const inputSenha = document.getElementsByClassName('Senha');
+const inputLogin = document.getElementById('email');
+const inputSenha = document.getElementById('senha');
+const btnEntrar = document.getElementById('entrar');
 
-}
+btnLogin.addEventListener('click', function (){
+  let email = 
+})
