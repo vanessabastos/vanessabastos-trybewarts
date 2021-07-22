@@ -42,3 +42,8 @@
   height: 500px;
   flex-grow: 1;
 }
+
+.botoes-radios {
+  display: flex;
+  flex-direction: column;
+}
