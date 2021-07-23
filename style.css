@@ -44,7 +44,7 @@ label{
 #evaluation-form {
   width: 675px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 .logo {
   display: flex;
@@ -53,7 +53,14 @@ label{
   flex-grow: 1;
 }
 
+<<<<<<< HEAD
 input {
   display: flex;
 }
 
+=======
+.botoes-radios {
+  display: flex;
+  flex-direction: column;
+}
+>>>>>>> 4b06bbdf54b6f4b833533ad3b608e90a7241e188
