@@ -1,7 +1,6 @@
 const inputEmail = document.getElementById('email');
 const inputSenha = document.getElementById('senha');
 const btnEntrar = document.getElementById('entrar');
-const btnEnviar = document.getElementById('submit-btn');
 
 btnEntrar.addEventListener('click', (event) => {
   event.preventDefault();
@@ -10,5 +9,4 @@ btnEntrar.addEventListener('click', (event) => {
   } else {
     alert('Olá, Tryber!');
   }
-})
-
+});

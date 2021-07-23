@@ -22,6 +22,7 @@
 #trybewarts-header-title {
   padding: 25px;
 }
+
 .caixa-flex {
   display: flex;
   flex-direction: row;
@@ -49,5 +50,4 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
