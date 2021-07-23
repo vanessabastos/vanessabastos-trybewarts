@@ -28,8 +28,8 @@
 
 .caixa-flex {
   display: flex;
-background-color:cornflowerblue;
-width: 675px;
+  background-color: cornflowerblue;
+  width: 675px;
 }
 
 label{
@@ -39,28 +39,26 @@ label{
 .caixa-flex {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
+
 #evaluation-form {
   width: 675px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
+
 .logo {
   display: flex;
   justify-content: flex-end;
-  height: 500px;
+  height: 5px;
   flex-grow: 1;
 }
 
-<<<<<<< HEAD
 input {
   display: flex;
 }
 
-=======
 .botoes-radios {
   display: flex;
   flex-direction: column;
 }
->>>>>>> 4b06bbdf54b6f4b833533ad3b608e90a7241e188
