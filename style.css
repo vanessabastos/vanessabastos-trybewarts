@@ -22,12 +22,6 @@
 #trybewarts-header-title {
   padding: 25px;
 }
-
-.caixa-flex {
-  display: flex;
-  background-color: cornflowerblue;
-}
-
 .caixa-flex {
   display: flex;
   flex-direction: row;
