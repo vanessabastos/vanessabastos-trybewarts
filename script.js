@@ -9,11 +9,6 @@ btnEntrar.addEventListener('click', (event) => {
     alert('Login ou senha inválidos.');
   } else {
     alert('Olá, Tryber!');
-  }else {
-    alert("Olá, Tryber!")
   }
-<<<<<<< HEAD
-});
-=======
-};
->>>>>>> 12bcc7b61a54fff622fb6518548452769ff3a253
+})
+
