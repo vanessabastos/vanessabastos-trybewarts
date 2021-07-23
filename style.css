@@ -44,3 +44,10 @@
   display: flex;
   flex-direction: column;
 }
+
+.seleciona-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
