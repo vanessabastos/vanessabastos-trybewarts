@@ -25,6 +25,7 @@
 .caixa-flex {
   display: flex;
   flex-direction: row;
+  background-color: lightsteelblue;
 }
 
 #evaluation-form {
@@ -43,4 +44,11 @@
 .seleciona-familia {
   display: flex;
   flex-direction: column;
+}
+
+.seleciona-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
 }
