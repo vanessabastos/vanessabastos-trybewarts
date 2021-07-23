@@ -1,6 +1,7 @@
 const inputEmail = document.getElementById('email');
 const inputSenha = document.getElementById('senha');
 const btnEntrar = document.getElementById('entrar');
+const btnEnviar = document.getElementById('submit-btn');
 
 btnEntrar.addEventListener('click', (event) => {
   event.preventDefault();
@@ -8,5 +9,11 @@ btnEntrar.addEventListener('click', (event) => {
     alert('Login ou senha inválidos.');
   } else {
     alert('Olá, Tryber!');
+  }else {
+    alert("Olá, Tryber!")
   }
+<<<<<<< HEAD
 });
+=======
+};
+>>>>>>> 12bcc7b61a54fff622fb6518548452769ff3a253

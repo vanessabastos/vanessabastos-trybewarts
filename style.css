@@ -14,19 +14,24 @@
   justify-content: space-between;
 }
 
-#trybewarts-header-title {
-  padding: 25px;
-}
-
 .trybewarts-login {
   display: flex;
   align-items: center;
 }
 
+#trybewarts-header-title {
+  padding: 25px;
+}
+
+.caixa-flex {
+  display: flex;
+  background-color: cornflowerblue;
+}
+
 .caixa-flex {
   display: flex;
   flex-direction: row;
-}
+  }
 
 #evaluation-form {
   width: 675px;
@@ -41,7 +46,7 @@
   flex-grow: 1;
 }
 
-.botoes-radios {
+.seleciona-familia {
   display: flex;
   flex-direction: column;
 }
