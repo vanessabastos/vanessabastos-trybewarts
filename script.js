@@ -15,13 +15,4 @@ btnEntrar.addEventListener('click', (event) => {
 
 inputConcorda.addEventListener('click', () => {
   btnEnviar.disabled = false;
-})
-
-//   if (btnEnviar.disabled === true) {
-//   inputConcorda.disabled = false;
-//  } else { 
-//  btnEnviar.disabled !==true
-//  } 
-// }); 
-//   console.log(btnEnviar.disabled)
-//   console.log(inputConcorda.disabled) 
+});
