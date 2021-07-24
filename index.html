@@ -39,28 +39,36 @@
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
       </div>
-      <div class="seleciona-familia">
-        <label id="label-family">Qual sua família?</label>
-        <label for="frontend">
-          <input type="radio" name="family" id="frontend" value="Frontend"> Frontend
-        </label>
-        <label for="backend">
-          <input type="radio" name="family" id="backend" value="Backend">Backend
-        </label>
-        <label for="fullStack">
-          <input type="radio" name="family" id="fullStack" value="FullStack">FullStack
-        </label>
-      </div>
+      <section>
+        <div class="seleciona-familia">
+          <label id="label-family">Qual sua família?</label>
+          <br>
+          <label for="frontend">
+            <input type="radio" name="family" id="frontend" value="Frontend"> Frontend
+          </label>
+          <label for="backend">
+            <input type="radio" name="family" id="backend" value="Backend">Backend
+          </label>
+          <label for="fullStack">
+            <input type="radio" name="family" id="fullStack" value="FullStack">FullStack
+          </label>
+        </div>
 
-      <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-      <div class="seleciona-conteudo">
-        <input type="checkbox" name="hofs" class="subject" value="HoFs"> HoFs
-        <input type="checkbox" name="jest" class="subject" value="Jest"> Jest
-        <input type="checkbox" name="promises" class="subject" value="Promises"> Promises
-        <input type="checkbox" name="react" class="subject" value="React"> React
-        <input type="checkbox" name="sql" class="subject" value="SQL"> SQL
-        <input type="checkbox" name="python" class="subject" value="Python"> Python
-      </div>
+        <div class="seleciona-conteudo">
+          <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+          <br>
+          <br>
+          <input type="checkbox" name="hofs" class="subject" value="HoFs"> HoFs
+          <input type="checkbox" name="jest" class="subject" value="Jest"> Jest
+          <input type="checkbox" name="promises" class="subject" value="Promises"> Promises
+          <br>
+          <br>
+          <input type="checkbox" name="react" class="subject" value="React"> React
+          <input type="checkbox" name="sql" class="subject" value="SQL"> SQL
+          <input type="checkbox" name="python" class="subject" value="Python"> Python
+        </div>
+      </section>
+
       <div class="avalia-trybewarts">
         <label id="label-rate">"Como você avalia a Trybewarts?"</label>
         <input type="radio" name="rate" value="1"> 1
@@ -74,15 +82,15 @@
         <input type="radio" name="rate" value="9"> 9
         <input type="radio" name="rate" value="10"> 10
       </div>
+      <label for="caixa-comentario" class="textarea">Deixe seu comentário:</label>
       <div class="comentario">
-        <label for="caixa-comentario" class="textarea">Deixe seu comentário:</label>
-        <textarea name="comentario" id="caixa-comentario" cols="30" rows="10" maxlength="500"></textarea>
+        <textarea name="comentario" id="caixa-comentario" cols="60" rows="5" maxlength="500"></textarea>
       </div>
       <div class="concorda-info">
         <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
         <input type="checkbox" id="agreement">
       </div>
-      <button class="botao-enviar" type="submit" id="submit-btn">Enviar</button>
+      <button disabled class="botao-enviar" type="submit" id="submit-btn">Enviar</button>
     </form>
     <img class="logo" id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
   </main>

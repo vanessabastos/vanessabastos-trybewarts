@@ -19,9 +19,6 @@
   align-items: center;
 }
 
-#trybewarts-header-title {
-  padding: 25px;
-}
 .caixa-flex {
   display: flex;
   flex-direction: row;
@@ -32,6 +29,8 @@
   width: 675px;
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
 .logo {
@@ -46,9 +45,36 @@
   flex-direction: column;
 }
 
-.seleciona-conteudo {
+section {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin-top: 25px;
+}
 
+.seleciona-conteudo {
+  margin-left: 25px;
+}
+
+.avalia-trybewarts {
+  margin-top: 25px;
+}
+
+.textarea {
+  display: flex;
+  margin-top: 25px;
+}
+
+.concorda-info {
+  margin-top: 25px;
+}
+
+.botao-enviar {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 500px;
+}
+
+.rodape {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
 }
