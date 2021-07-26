@@ -4,13 +4,12 @@
   font-size: 100%;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
-body { 
+body {
   background-image: url(images/índice.jpeg);
-  min-height: 100vh; 
-  background-size: cover; 
+  min-height: 100vh;
+  background-size: cover;
 }
 
 .header {
@@ -63,6 +62,7 @@ section {
 
 .avalia-trybewarts {
   margin-top: 25px;
+  margin: left 20px;
 }
 
 .textarea {
@@ -84,8 +84,4 @@ section {
   display: flex;
   margin-top: 15px;
   justify-content: center;
-}
-
-.avalia-trybewarts {
-  margin: left 20px;;
 }
