@@ -4,10 +4,11 @@
   font-size: 100%;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 body { 
-  background-image: image(image);
+  background-image: url(images/índice.jpeg);
   min-height: 100vh; 
   background-size: cover; 
 }
@@ -28,7 +29,7 @@ body {
 .caixa-flex {
   display: flex;
   flex-direction: row;
-  background-color: lightsteelblue;
+  color: lightgrey;
 }
 
 #evaluation-form {
