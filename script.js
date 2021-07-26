@@ -1,4 +1,4 @@
-const inputEmail = document.getElementById('email');
+const inputEmail = document.querySelector('#email');
 const inputSenha = document.getElementById('senha');
 const btnEntrar = document.getElementById('entrar');
 const btnEnviar = document.getElementById('submit-btn');
@@ -22,3 +22,6 @@ btnEnviar.addEventListener('click', () => {
 });
 
 console.log(btnEnviar);
+inputConcorda.addEventListener('click', () => {
+  btnEnviar.disabled = false;
+});
