@@ -16,7 +16,7 @@ btnEntrar.addEventListener('click', (event) => {
 btnEnviar.addEventListener('click', () => {
   if (inputConcorda.checked === true) {
     btnEnviar.disabled = false;
-  } else { 
+  } else {
     btnEnviar.disabled = true;
   }
 });
