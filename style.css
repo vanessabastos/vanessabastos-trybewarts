@@ -7,9 +7,10 @@
 }
 
 body {
-  background-image: url('images/índice.jpeg');
+  background-image: url("images/índice.jpeg");
   min-height: 100vh;
   background-size: cover;
+  font-size: 25px;
 }
 
 .header {
@@ -30,7 +31,7 @@ body {
 .caixa-flex {
   display: flex;
   flex-direction: row;
-  color: lightgrey;
+  color: white;
 }
 
 #evaluation-form {
@@ -80,10 +81,12 @@ section {
   margin-top: 25px;
   margin-bottom: 25px;
   width: 500px;
+  color: black;
 }
 
 .rodape {
   display: flex;
   margin-top: 15px;
   justify-content: center;
+  color: white;
 }
